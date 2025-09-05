@@ -1,0 +1,32 @@
+/* ================================
+   🎨 Design Tokens
+   ================================ */
+:root {
+  /* Layout */
+  --layout-mobile: 375px;
+  --layout-desktop: 1440px;
+
+  /* Colors */
+  --color-blue-50: hsl(225, 100%, 98%);
+  --color-blue-100: hsl(225, 100%, 94%);
+  --color-blue-700: hsl(245, 75%, 52%);
+  --color-gray-600: hsl(224, 23%, 55%);
+  --color-blue-950: hsl(223, 47%, 23%);
+
+  /* Typography */
+  --font-family-sans: 'Red Hat Display', sans-serif;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --font-size-body: 16px;
+  --line-height-body: 1.5;
+
+  /* Spacing scale (optional, helps consistency) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+}

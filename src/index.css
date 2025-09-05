@@ -1,0 +1,37 @@
+/* ================================
+   🌐 Theme using Tokens
+   ================================ */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+  font-family: var(--font-family-sans);
+  margin: 0;
+  padding: 0;
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0  0 var(--space-3);
+}
+.main-layout{
+  background-image: url("./images/pattern-background-desktop.svg");
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-blue-100);
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+
+}
+.card{
+  max-width: 450px;
+  margin: auto;
+  background-color: var(--color-blue-50);
+ border-radius: 20px;
+ 
+}
+.card__buttons{
+  display: flex;
+  flex-direction: column;
+}
